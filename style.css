@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#checkout{
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 1rem;
+    font-weight: bold;
+    display: block;
+}
+
+main{
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 35px 0px;
+    display: grid;
+    grid-template-columns: 465px 320px;
+}
+
+main form{
+    margin-right: 150px;
+    position: relative;
+    width: 80%;
+}
+
+form{
+    display: block;
+}
+
+.data-form{
+    position: relative;
+    display: block;
+}
+
+.data-form h2{
+    font-size: 17px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.data-form .campo{
+    margin: 10px 0;
+}
+
+.data-form .campo label{
+    font-size: 13px;
+    color: #4f4f4f;
+    margin: 10px 0;
+    position: relative;
+    display: block;
+}
